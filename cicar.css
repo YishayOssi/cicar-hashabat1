@@ -30,11 +30,47 @@ h3{
      
 }
 
-.articles img{
+.article1{
     width: 100%;
-   
+   border: 1px solid rgb(231, 216, 216)
+}
+
+.article1 img{
+    width: 180px;
+    height: 100px;
 }
 
 
+.article2{
+    width: 100%;
+   border: 1px solid rgb(231, 216, 216);
+   /* מכריח את הדיב להיות לפחות בגודל של האלמנט שבפנים  */
+    /* overflow: auto;    */
+}
+
+
+.article2 .right-img{
+    width: 180px;
+    height: 100px;
+    float: right;
+    margin-left: 10px;
+   
+    
+}
+
+
+.article2 .left-img{
+    width: 180px;
+    height: 100px;
+    float: left;
+   
+    
+}
+
+
+.article2 h2{
+    color: rgb(201, 6, 6);
+    
+}
 
 
